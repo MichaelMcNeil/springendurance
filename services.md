@@ -21,6 +21,8 @@ permalink: /services/
 **Premium** TrainingPeaks Athlete Account
 
 **Included:** HR-Based Training, Video Gait Analysis, Strength Training Plans
+
+_For more details, read through the [new athlete welcome](/welcome)._
 <br>
 <br>
 
