@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" /><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Learning to Minecraft Admin | spring endurance + wellness</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Learning to Minecraft Admin" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The past six months have been largely consumed with a new business venture. Check out www.springendurance.com to see what’s up. I’ve started coaching athletes, mostly runners. I’m hoping to start coaching triathletes as well." />
+<meta property="og:description" content="The past six months have been largely consumed with a new business venture. Check out www.springendurance.com to see what’s up. I’ve started coaching athletes, mostly runners. I’m hoping to start coaching triathletes as well." />
+<link rel="canonical" href="http://localhost:4000/ubuntu/linux/minecraft/admin/server/2019/09/02/learning-to-minecraft-admin-copy.html" />
+<meta property="og:url" content="http://localhost:4000/ubuntu/linux/minecraft/admin/server/2019/09/02/learning-to-minecraft-admin-copy.html" />
+<meta property="og:site_name" content="spring endurance + wellness" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-09-02T00:00:00-04:00" />
+<script type="application/ld+json">
+{"datePublished":"2019-09-02T00:00:00-04:00","dateModified":"2019-09-02T00:00:00-04:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ubuntu/linux/minecraft/admin/server/2019/09/02/learning-to-minecraft-admin-copy.html"},"url":"http://localhost:4000/ubuntu/linux/minecraft/admin/server/2019/09/02/learning-to-minecraft-admin-copy.html","description":"The past six months have been largely consumed with a new business venture. Check out www.springendurance.com to see what’s up. I’ve started coaching athletes, mostly runners. I’m hoping to start coaching triathletes as well.","headline":"Learning to Minecraft Admin","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" /><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="spring endurance + wellness" /></head>
+<body><header class="site-header">
+
+  <div style="padding-right:20px; padding-left 20px;"" class=""><img src="/assets/logo.png" style="float: left; height: 50px; margin-left: 20px;;" />
+    <a class="site-title" rel="author" href="/">spring endurance + wellness</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          <nav>
+  
+  <a href="/about/" class="page-link">
+    About Coach Michael
+  </a>
+  
+  <a href="/services/" class="page-link">
+    Coaching Services
+  </a>
+  
+  <a href="/welcome/" class="page-link">
+    For New Athletes
+  </a>
+  
+  <a href="/hello/" class="page-link">
+    Get In Touch
+  </a>
+  
+  <a href="/blog/" class="page-link">
+    Blog
+  </a>
+  
+</nav>
+
+        </div>
+      </nav></div>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Learning to Minecraft Admin</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-09-02T00:00:00-04:00" itemprop="datePublished">Sep 2, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>The past six months have been largely consumed with a new business venture. Check out <a href="http://springendurance.com">www.springendurance.com</a> to see what’s up. I’ve started coaching athletes, mostly runners. I’m hoping to start coaching triathletes as well.</p>
+
+<p>This past week a friend of mine decided to start a new minecraft server and I thought I’d admin it as a side project.</p>
+
+<p>I created a few scripts (with help from the internet) to start the server and perform regular backups. Here’s a snippet of what I’ve done so far. (also, I realize this seems basic…but I’ve been off the blogging grid for a quick minute and I’m trying to inspire myself to get back into it (-: )</p>
+
+<p>To keep the minecraft server up and running, a screen session is initiated. The server call gets fired inside a loop so whether the server dies unnaturally, or the /stop command is given in the minecraft console, the session will fire the call again.</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c">#!/bin/sh</span>
+screen <span class="nt">-S</span> <span class="s2">"Minecraft"</span> bash <span class="nt">-c</span> <span class="s2">"sh /root/minecraft/loop.sh"</span></code></pre></figure>
+
+<p>But just in case the admin wants to stop the server, a 5 second sleep is provided so that the process can be exited manually.</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c">#!/bin/sh</span>
+<span class="k">while </span><span class="nb">true
+</span><span class="k">do
+</span><span class="nb">sudo </span>java <span class="nt">-Xmx1900M</span> <span class="nt">-jar</span> minecraft_server.jar nogui
+<span class="nb">echo</span> <span class="s2">"If you want to completely stop the server process now, press Ctrl+C before the time is up!"</span>
+<span class="nb">echo</span> <span class="s2">"Rebooting in:"</span>
+<span class="k">for </span>i <span class="k">in </span>5 4 3 2 1
+<span class="k">do
+</span><span class="nb">echo</span> <span class="s2">"</span><span class="se">\$</span><span class="s2">i..."</span>
+sleep 1
+<span class="k">done
+</span><span class="nb">echo</span> <span class="s2">"Rebooting now!"</span>
+<span class="k">done</span></code></pre></figure>
+
+<p>TODO: make sure that the “Minecraft” screen session is iniated on server start.</p>
+
+<p>Next, I wanted to make sure that the minecraft directory is regularly backed up on the occassion someone joins and makes a mess of things.</p>
+
+<p>Console commands can be executed on the minecraft server by sending them to the screen session in the -X parameter. Before the backup begins, users on the server are notified that a backup is beginning and that Minecrafts auto-save feature will be turned off. Because I’m going to run this backup command hourly as a cron job, I’ll compress the minecraft folder into a tarball and keep the last 24 compressions (*actually 25). Every hour the compressions will be renamed, making it easy to see how many hours ago a backup was created. Finally, I’ll turn minecrafts auto-save back on and let the server know that backup it completed.</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">screen <span class="nt">-S</span> Minecraft <span class="nt">-X</span> stuff <span class="s2">"say Backup starting. World no longer saving...don't do anything crazy (-: </span><span class="k">$(</span><span class="nb">printf</span> <span class="s1">'\r'</span><span class="k">)</span><span class="s2">"</span>
+screen <span class="nt">-S</span> Minecraft <span class="nt">-X</span> stuff <span class="s2">"save-off </span><span class="k">$(</span><span class="nb">printf</span> <span class="s1">'\r'</span><span class="k">)</span><span class="s2">"</span>
+screen <span class="nt">-S</span> Minecraft <span class="nt">-X</span> stuff <span class="s2">"save-all </span><span class="se">\$</span><span class="s2">(printf '</span><span class="se">\r</span><span class="s2">')"</span>
+sleep 3
+
+<span class="nb">cd</span> /root/minecraft/backups
+rm <span class="nt">-f</span> minecraft.tar.gz.24
+mv minecraft-hour23.tar.gz minecraft-hour24.tar.gz
+mv minecraft-hour22.tar.gz minecraft-hour23.tar.gz
+mv minecraft-hour21.tar.gz minecraft-hour22.tar.gz
+mv minecraft-hour20.tar.gz minecraft-hour21.tar.gz
+mv minecraft-hour19.tar.gz minecraft-hour20.tar.gz
+mv minecraft-hour18.tar.gz minecraft-hour19.tar.gz
+mv minecraft-hour17.tar.gz minecraft-hour18.tar.gz
+mv minecraft-hour16.tar.gz minecraft-hour17.tar.gz
+mv minecraft-hour15.tar.gz minecraft-hour16.tar.gz
+mv minecraft-hour14.tar.gz minecraft-hour15.tar.gz
+mv minecraft-hour13.tar.gz minecraft-hour14.tar.gz
+mv minecraft-hour12.tar.gz minecraft-hour13.tar.gz
+mv minecraft-hour11.tar.gz minecraft-hour12.tar.gz
+mv minecraft-hour10.tar.gz minecraft-hour11.tar.gz
+mv minecraft-hour9.tar.gz minecraft-hour10.tar.gz
+mv minecraft-hour8.tar.gz minecraft-hour9.tar.gz
+mv minecraft-hour7.tar.gz minecraft-hour8.tar.gz
+mv minecraft-hour6.tar.gz minecraft-hour7.tar.gz
+mv minecraft-hour5.tar.gz minecraft-hour6.tar.gz
+mv minecraft-hour4.tar.gz minecraft-hour5.tar.gz
+mv minecraft-hour3.tar.gz minecraft-hour4.tar.gz
+mv minecraft-hour2.tar.gz minecraft-hour3.tar.gz
+mv minecraft-hour1.tar.gz minecraft-hour2.tar.gz
+mv minecraft-hour0.tar.gz minecraft-hour1.tar.gz
+
+<span class="nb">tar</span> <span class="nt">-cpvzf</span> /root/minecraft/backups/minecraft-hour0.tar.gz /root/minecraft
+
+screen <span class="nt">-S</span> Minecraft <span class="nt">-X</span> stuff <span class="s2">"save-on </span><span class="k">$(</span><span class="nb">printf</span> <span class="s1">'\r'</span><span class="k">)</span><span class="s2">"</span>
+screen <span class="nt">-S</span> Minecraft <span class="nt">-X</span> stuff <span class="s2">"say Backup complete. YEeEeET!. </span><span class="k">$(</span><span class="nb">printf</span> <span class="s1">'\r'</span><span class="k">)</span><span class="s2">"</span></code></pre></figure>
+
+<p>To schedule the backup script to run hourly…</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">crontab <span class="nt">-e</span></code></pre></figure>
+
+<p>This edits the files located at /var/spool/cron/crontabs.</p>
+
+<p>Simply add the following line and the server takes care of the rest.</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">@hourly /root/minecraft/backup.sh</code></pre></figure>
+
+<p>I’ve got a little bit (actually A LOT) more to learn about minecraft server maintenance, but I think it’s going to be a fun little side project.</p>
+
+  </div><a class="u-url" href="/ubuntu/linux/minecraft/admin/server/2019/09/02/learning-to-minecraft-admin-copy.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">spring endurance + wellness</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">spring endurance + wellness</li><li><a class="u-email" href="mailto:hello@springendurance.com">hello@springendurance.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://instagram.com/springendurance"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#instagram"></use></svg> <span class="username">springendurance</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
