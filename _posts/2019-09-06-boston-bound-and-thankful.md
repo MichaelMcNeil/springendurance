@@ -3,9 +3,9 @@ layout: post
 title: "Boston Bound and Thankful"
 permalink: "boston-bound-and-thankful"
 author: "Jennifer Onuoha"
-date: 2019-09-05
+date: 2019-09-06
 categories:
-description: As a runner, I always wonder if I'm prepared for an upcoming race. Are these shoes the right ones? Is my nutrition good? Am I hydrated well or did I hydrate too much? Did I do well for each training session? We do our best to prepare for the race, and we give our best on race day.
+description: My journey to Boston, to a FAST 50-miler, and beyond.
 image: /assets/posts/boston-bound-and-thankful/header.jpg
 ---
 
