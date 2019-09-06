@@ -9,13 +9,13 @@ permalink: /about/
     <img height="200px" src="/assets/michaelmcneil-relaxed.jpg" />
     <br><br>
     <h1>BACKGROUND</h1>
-      After nearly a decade of post college weight gain, a News Years Resolution took me outside for a run.  It was a 30-second (uphill both ways) run that left me walking and deprived of oxygen. I won't soon forget that feeling. I had to change.
+      After nearly a decade of post college weight gain, a News Years Resolution took me outside for a run. Six months, some new eating habits, and regular running helped me drop 60 pounds (found my racing weight after losing 80).  
       <br>
       <br>
-      Six months, some new eating habits, and regular running helped me drop 60 pounds (now down 80). My motivations expanded. I was no longer trying only to regain health or look better, but I loved the sport.
+      I love running. I love coaching. I love learning. I love finding new ways to analyze data. I LOVE helping other set and hit goals. Whether you aim to improve your body composition or <a href="/boston-bound-and-thankful" target="_blank">qualify for a world marathon</a>, I can help you get there.
       <br>
       <br>
-      I've set my sights on competing in triathlon at a high level, but running is my first love. Whether you're looking to perform at a higher level, or you want to make a lasting change to your health, I can help you hit your goals.
+      Personally, I'm really getting excited about triathlon, yet running is still my first love. I've got HUGE goals for next year! Feel free to ask!
   </div>
   <div class="threecol">
     <img height="200px" src="/assets/uesca-clipped.png" />
@@ -31,7 +31,7 @@ permalink: /about/
     <img height="200px" src="/assets/logo.png" />
     <br><br>
     <h1>PASSION</h1>
-      The inspiration for Spring Endurance was born out passion for the plant-based lifestyle.
+      The inspiration for the name "Spring Endurance" was born out passion for the plant-based lifestyle.
       <br>
       <br>
       💚🌱🌿

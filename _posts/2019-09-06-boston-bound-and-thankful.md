@@ -5,7 +5,7 @@ permalink: "boston-bound-and-thankful"
 author: "Jennifer Onuoha"
 date: 2019-09-06
 categories:
-description: My journey to Boston, to a FAST 50-miler, and beyond.
+description: My journey to Boston, to a FAST 50-miler, and finding a coach.
 image: /assets/posts/boston-bound-and-thankful/header.jpg
 ---
 
