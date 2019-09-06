@@ -3,6 +3,42 @@
 
 @import "{{ site.theme }}";
 
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+.site-title {
+  font-family: "Chelsea Market", cursive;
+  text-decoration: none;
+}
+
+.page-link {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+a.active {
+  font-weight: bolder;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+  color: #93c47d;
+}
+
+a:visited {
+  color: black;
+}
+
 .post-header {
   text-align: center;
 }
@@ -10,6 +46,20 @@
 .twocol {
   float: left;
   width: 48%;
+  text-align: center;
+  margin: 1%;
+}
+
+.onethird {
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin: 1%;
+}
+
+.twothird {
+  float: left;
+  width: 60%;
   text-align: center;
   margin: 1%;
 }
