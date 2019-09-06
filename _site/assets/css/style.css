@@ -197,7 +197,7 @@ table td { border: 1px solid #e8e8e8; }
 
 a { color: black; text-decoration: underline; }
 
-.site-title { font-family: "Chelsea Market", cursive; text-decoration: none; }
+.site-title { font-family: "Chelsea Market", cursive; text-decoration: none; font-size: 22px; }
 
 .page-link { font-family: "Open Sans", sans-serif; text-decoration: none; }
 
@@ -226,4 +226,6 @@ a:visited { color: black; }
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) { .threecol { width: 100%; }
-  .twocol { width: 100%; } }
+  .twocol { width: 100%; }
+  .onethird { width: 100%; }
+  .twothird { width: 100%; } }
