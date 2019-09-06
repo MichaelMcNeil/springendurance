@@ -1,215 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-05T20:53:54-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">spring endurance + wellness</title><subtitle></subtitle><entry><title type="html">Learning to Minecraft Admin: Part 2</title><link href="http://localhost:4000/ubuntu/linux/minecraft/admin/server/2019/09/03/learning-to-minecraft-admin-part-2.html" rel="alternate" type="text/html" title="Learning to Minecraft Admin: Part 2" /><published>2019-09-03T00:00:00-04:00</published><updated>2019-09-03T00:00:00-04:00</updated><id>http://localhost:4000/ubuntu/linux/minecraft/admin/server/2019/09/03/learning-to-minecraft-admin-part-2</id><content type="html" xml:base="http://localhost:4000/ubuntu/linux/minecraft/admin/server/2019/09/03/learning-to-minecraft-admin-part-2.html">&lt;p&gt;Mistakes have already been made. Late last night I got a message that the server wasn’t logging anyone in. The error codes indicated that connections couldn’t be made to Mojang’s auth servers, but a friend was able to login to other servers, and I could login to my account page on Mojang’s website.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-05T23:42:28-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">spring endurance + wellness</title><subtitle></subtitle><entry><title type="html">Boston Bound and Thankful</title><link href="http://localhost:4000/boston-bound-and-thankful" rel="alternate" type="text/html" title="Boston Bound and Thankful" /><published>2019-09-05T00:00:00-04:00</published><updated>2019-09-05T00:00:00-04:00</updated><id>http://localhost:4000/boston-bound-and-thankful</id><content type="html" xml:base="http://localhost:4000/boston-bound-and-thankful">&lt;p&gt;&lt;img src=&quot;/assets/posts/boston-bound-and-thankful/header.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Immediately I assumed a RAM issue because our server is small. It’s 2G and minecraft typically consumes 50-60% of that. free -m didn’t show anything unusual. But it was unusual that I had to type in the full command. Tab-completion was throwing an error everytime I tried to use it, and the server seemed sluggish.&lt;/p&gt;
+&lt;p&gt;As a runner, I always wonder if I’m prepared for an upcoming race. Are these shoes the right ones? Is my nutrition good? Am I hydrated well or did I hydrate too much? Did I do well for each training session? We do our best to prepare for the race, and we give our best on race day.&lt;/p&gt;
 
-&lt;p&gt;So…&lt;/p&gt;
+&lt;p&gt;Training for my second marathon (&lt;a href=&quot;https://runsignup.com/Race/Results/60979/IndividualResult/QFgd?#U28590987&quot;&gt;first marathon 3:54:12&lt;/a&gt;) was a complete eye opener. It opened my eyes to see that I am capable of so much more. This marathon, the Boston Bound Marathon (John’s Creek, GA), is just the start. In the coming years, I plan to take my running to a whole new level - and inspire others to know they are capable of so much more.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;df &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h1 id=&quot;the-road&quot;&gt;The Road&lt;/h1&gt;
 
-&lt;p&gt;&lt;img style=&quot;width: 100%;&quot; src=&quot;/assets/hd-full.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Oops. When I scheduled the hourly backups with cron, I didn’t think to see how large a backup was, nor did I consider the servers 25G limit. We were maxed out. Deleting a few of the backups followed by a server reboot and everything was running smoothly again. But I clearly needed to rethink my backup strategy. What did I NEED to backup to safely recover a server instance, and how often did I really need to do it.&lt;/p&gt;
-
-&lt;p&gt;What constitues a minecraft server instance? I couldn’t actually find any documentation online so I just used a bit of common sense to start pulling things out.&lt;/p&gt;
-
-&lt;p&gt;After a bit of thought I came up with the following directory structure.&lt;/p&gt;
+&lt;p&gt;On the road to John’s Creek, I knew something amazing was going to come out of me, but I was nervous too. The longest run I had finished in training was only 16 miles.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;minecraft
-    &lt;ul&gt;
-      &lt;li&gt;servers (each server gets its own directory)&lt;/li&gt;
-      &lt;li&gt;backups (same as above)&lt;/li&gt;
-      &lt;li&gt;jars (not every server needs access to each version of vanilla or bukkit)&lt;/li&gt;
-      &lt;li&gt;bin (scripts that I’ll use to admin the different instances)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Two weeks before the race, my mother died and my siblings and I were overwhelmed with the shock of a loved one’s death and the logistics of funeral arrangements. A special thank you to everyone who helped us through this ❤️&lt;/li&gt;
+  &lt;li&gt;One week before the race, I began to feel very unwell. To make it through, I just held onto my faith in God and trusted that my training would carry me through.&lt;/li&gt;
+  &lt;li&gt;The night before the race, I was so excited. I had to force myself to sleep (lights off, phone off, everything off). I had the hotel clerk ring my room to wake me up at 3 am to toe the line by 5:30 am.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;So I created a ‘rof’ (Realm of Fyp) directory in servers and backups. Moved all the relevant configs, plugins, and logs to ‘rof’. I then recreated the sym link to the version of bukkit that I’m using in the jars directory.&lt;/p&gt;
+&lt;p&gt;&lt;img height=&quot;200px&quot; style=&quot;margin-left: auto; margin-right:auto; display: block;&quot; src=&quot;/assets/posts/boston-bound-and-thankful/morning-of.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /minecraft/servers/rof
-ln s ../../jars/bukkit.jar minecraft_server.jar&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h1 id=&quot;the-race&quot;&gt;The Race&lt;/h1&gt;
 
-&lt;p&gt;I edited the run and loop scripts to target the appropriate directory and create a screen session based on the name of that server.&lt;/p&gt;
+&lt;p&gt;That morning, I was certain something positive would come of my race. Someone asked if I planned to go sub 3:05, but knowing my training, I instantly replied “no”. My only two goals were to run sub 3:30 and to cross the finish line going strong - my coach’s race plan had me running 3:25.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-screen &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; rof &lt;span class=&quot;nt&quot;&gt;-dm&lt;/span&gt; bash &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;./loop&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;I found another female runner planning a 3:29 marathon, and I started my race barely glancing at my watch, trying to keep pace with her. I started faster than I should have, but for the first 14-15 miles I was the number 1 female, which I never imagined I could do. It was around mile 15 @ 1:45 that my right ankle began to collapse - an ongoing issue that I’m working to overcome. I had to slow down.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;while &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;do
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;java &lt;span class=&quot;nt&quot;&gt;-Xmx1900M&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-jar&lt;/span&gt; /root/minecraft/servers/rof/minecraft_server.jar nogui
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;If you want to completely stop the server process now, press Ctrl+C before the time is up!&quot;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Rebooting in:&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;i &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;5 4 3 2 1
-&lt;span class=&quot;k&quot;&gt;do
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\$&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;i...&quot;&lt;/span&gt;
-sleep 1
-&lt;span class=&quot;k&quot;&gt;done
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Rebooting now!&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Throughout my entire run, I never ceased in giving thanks to God. I knew it was by God’s almighty grace, I’d complete the race happily and successfully.&lt;/p&gt;
 
-&lt;p&gt;I started the server and logged into the minecraft world only to see that NOTHINGwe had created existed anymore and it was a fresh world. WHAT GIVES! I checked the contents of the minecraft directory and realized that all our worlds had been recreated in the top level directory instead of using the instances that I had copied to /servers/rof.&lt;/p&gt;
+&lt;p&gt;At mile 16 or 17 this amazing female runner picked up her pace, lapping me at least twice, but I couldn’t help but feel her positive energy as she remained focused and nailed a 3:09 finish. Over the final 2 1/2 miles, I steadily grew faster (crossing the finish at 6:33 min/mile) and grew happy - grateful to God and everyone who made this possible - finishing in 3:27:06. Special thanks to Stephanie, who aided my table during the race.&lt;/p&gt;
 
-&lt;p&gt;Weirdly enough, minecraft will read the configs from the directory in which minecraft_server.jar exists, but it won’t use the world instances unless the java -jar command is actually called from that same directory. Thus, minecraft will always use the world files from the pwd when java is run, and create new ones if they don’t exist.&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;twocol&quot;&gt;
+&lt;img height=&quot;200px&quot; style=&quot;margin-left: 25%; margin-right:auto; float: left; display: inline;&quot; src=&quot;/assets/posts/boston-bound-and-thankful/result.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;twocol&quot;&gt;
+&lt;img height=&quot;200px&quot; style=&quot;margin-left: 25%; float:left; display: block;&quot; src=&quot;/assets/posts/boston-bound-and-thankful/stephanie.jpeg&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Easy enough. Before executing my while loop…&lt;/p&gt;
+&lt;h1 id=&quot;the-reward&quot;&gt;The Reward&lt;/h1&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;servers/rof
-&lt;span class=&quot;k&quot;&gt;while &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;----&lt;/span&gt; run the java stuff&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;If I am honest, this Marathon wasn’t decided until 3 months or so in advance. I had trained for 40 days with Michael McNeil as my coach when I got the idea. He inspired me to go further in my running dreams and I can not thank God enough for his impact on my running career.&lt;/p&gt;
 
-&lt;p&gt;But still, the code needed a bit more refactoring. What if I wanted more server instances than just ‘rof’ and I wanted to use my same run, loop, and backup scripts to execute them? Well I just needed to edit the scripts to accept the name of the server as an argument.&lt;/p&gt;
+&lt;p&gt;Originally, I was trying to train for a 50-miler on my own and it just became tedious. I didn’t know how to train for it, nor did I know what to expect. But after a few months of disciplined training, I realized I could actually be fast for my 50. I called up my coach and told him my plans. We agreed to look for a Boston Qualifying (BQ) marathon around early Sept to prepare me for the 50.&lt;/p&gt;
 
-&lt;p&gt;run (passes the server name onto loop)&lt;/p&gt;
+&lt;p&gt;Not only did I BQ, but training for this race I gained a lot of confidence and learned new skills as a runner. I thank God for all of my friends, family and running family (&lt;a href=&quot;https://www.facebook.com/groups/275679196290211/&quot;&gt;Paducah Area Running Crew&lt;/a&gt; and &lt;a href=&quot;https://www.facebook.com/River2RiverRunners/&quot;&gt;River to River Runners&lt;/a&gt;) for being a part of my run experience. I wouldn’t trade it for anything in the world!&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-screen &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dm&lt;/span&gt; bash &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;./loop &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;twocol&quot;&gt;
+    &lt;img height=&quot;250px;&quot; src=&quot;/assets/posts/boston-bound-and-thankful/third.jpg&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;twocol&quot;&gt;
+    &lt;p&gt;If you want to follow my journey to the &lt;a href=&quot;https://ultrasignup.com/register.aspx?did=63479&quot;&gt;Tunnel Hill 50-Miler&lt;/a&gt; and beyond…&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /root/minecraft/servers/&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;while &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;do
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;java &lt;span class=&quot;nt&quot;&gt;-Xmx1900M&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-Dlopg4j&lt;/span&gt;.configurationFile&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/root/minecraft/servers/&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;/log4j2.xml &lt;span class=&quot;nt&quot;&gt;-jar&lt;/span&gt; /root/minecraft/servers/&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;/minecraft_server.jar nogui
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;If you want to completely stop the server process now, press Ctrl+C before the time is up!&quot;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Rebooting in:&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;i &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;5 4 3 2 1
-&lt;span class=&quot;k&quot;&gt;do
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\$&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;i...&quot;&lt;/span&gt;
-sleep 1
-&lt;span class=&quot;k&quot;&gt;done
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Rebooting now!&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+    &lt;h1 id=&quot;find-me-on-facebook--instagram&quot;&gt;Find me on &lt;a href=&quot;https://www.facebook.com/jjonuoha&quot;&gt;Facebook&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://www.instagram.com/jenniferjunerunz/&quot;&gt;Instagram&lt;/a&gt;!&lt;/h1&gt;
 
-&lt;p&gt;Now I can exectue these scripts on different servers without having to refactor. Next up, I’d like to automate the server creation process and perhaps expose these functions over http endpoints.&lt;/p&gt;
-
-&lt;p&gt;And finally, a keen eye would have also picked up on the addition of…&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nt&quot;&gt;-Dlopg4j&lt;/span&gt;.configurationFile&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/root/minecraft/servers/&lt;span class=&quot;se&quot;&gt;\$&lt;/span&gt;1/log4j2.xml&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Well…..that’s for the next post, and is a solution I’ve found to deal with the RIDICULOUS amount of log spam all these minecraft plugins generate. How do you weed out all the junk so that you can actually debug the server?&lt;/p&gt;</content><author><name></name></author><summary type="html">Mistakes have already been made. Late last night I got a message that the server wasn’t logging anyone in. The error codes indicated that connections couldn’t be made to Mojang’s auth servers, but a friend was able to login to other servers, and I could login to my account page on Mojang’s website.</summary></entry><entry><title type="html">Learning to Minecraft Admin</title><link href="http://localhost:4000/ubuntu/linux/minecraft/admin/server/2019/09/02/learning-to-minecraft-admin-copy.html" rel="alternate" type="text/html" title="Learning to Minecraft Admin" /><published>2019-09-02T00:00:00-04:00</published><updated>2019-09-02T00:00:00-04:00</updated><id>http://localhost:4000/ubuntu/linux/minecraft/admin/server/2019/09/02/learning-to-minecraft-admin%20copy</id><content type="html" xml:base="http://localhost:4000/ubuntu/linux/minecraft/admin/server/2019/09/02/learning-to-minecraft-admin-copy.html">&lt;p&gt;The past six months have been largely consumed with a new business venture. Check out &lt;a href=&quot;http://springendurance.com&quot;&gt;www.springendurance.com&lt;/a&gt; to see what’s up. I’ve started coaching athletes, mostly runners. I’m hoping to start coaching triathletes as well.&lt;/p&gt;
-
-&lt;p&gt;This past week a friend of mine decided to start a new minecraft server and I thought I’d admin it as a side project.&lt;/p&gt;
-
-&lt;p&gt;I created a few scripts (with help from the internet) to start the server and perform regular backups. Here’s a snippet of what I’ve done so far. (also, I realize this seems basic…but I’ve been off the blogging grid for a quick minute and I’m trying to inspire myself to get back into it (-: )&lt;/p&gt;
-
-&lt;p&gt;To keep the minecraft server up and running, a screen session is initiated. The server call gets fired inside a loop so whether the server dies unnaturally, or the /stop command is given in the minecraft console, the session will fire the call again.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-screen &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Minecraft&quot;&lt;/span&gt; bash &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;sh /root/minecraft/loop.sh&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;But just in case the admin wants to stop the server, a 5 second sleep is provided so that the process can be exited manually.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;while &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;do
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;java &lt;span class=&quot;nt&quot;&gt;-Xmx1900M&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-jar&lt;/span&gt; minecraft_server.jar nogui
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;If you want to completely stop the server process now, press Ctrl+C before the time is up!&quot;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Rebooting in:&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;i &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;5 4 3 2 1
-&lt;span class=&quot;k&quot;&gt;do
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\$&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;i...&quot;&lt;/span&gt;
-sleep 1
-&lt;span class=&quot;k&quot;&gt;done
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Rebooting now!&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;TODO: make sure that the “Minecraft” screen session is iniated on server start.&lt;/p&gt;
-
-&lt;p&gt;Next, I wanted to make sure that the minecraft directory is regularly backed up on the occassion someone joins and makes a mess of things.&lt;/p&gt;
-
-&lt;p&gt;Console commands can be executed on the minecraft server by sending them to the screen session in the -X parameter. Before the backup begins, users on the server are notified that a backup is beginning and that Minecrafts auto-save feature will be turned off. Because I’m going to run this backup command hourly as a cron job, I’ll compress the minecraft folder into a tarball and keep the last 24 compressions (*actually 25). Every hour the compressions will be renamed, making it easy to see how many hours ago a backup was created. Finally, I’ll turn minecrafts auto-save back on and let the server know that backup it completed.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;screen &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; Minecraft &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; stuff &lt;span class=&quot;s2&quot;&gt;&quot;say Backup starting. World no longer saving...don't do anything crazy (-: &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'\r'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-screen &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; Minecraft &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; stuff &lt;span class=&quot;s2&quot;&gt;&quot;save-off &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'\r'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-screen &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; Minecraft &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; stuff &lt;span class=&quot;s2&quot;&gt;&quot;save-all &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\$&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;(printf '&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\r&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;')&quot;&lt;/span&gt;
-sleep 3
-
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /root/minecraft/backups
-rm &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; minecraft.tar.gz.24
-mv minecraft-hour23.tar.gz minecraft-hour24.tar.gz
-mv minecraft-hour22.tar.gz minecraft-hour23.tar.gz
-mv minecraft-hour21.tar.gz minecraft-hour22.tar.gz
-mv minecraft-hour20.tar.gz minecraft-hour21.tar.gz
-mv minecraft-hour19.tar.gz minecraft-hour20.tar.gz
-mv minecraft-hour18.tar.gz minecraft-hour19.tar.gz
-mv minecraft-hour17.tar.gz minecraft-hour18.tar.gz
-mv minecraft-hour16.tar.gz minecraft-hour17.tar.gz
-mv minecraft-hour15.tar.gz minecraft-hour16.tar.gz
-mv minecraft-hour14.tar.gz minecraft-hour15.tar.gz
-mv minecraft-hour13.tar.gz minecraft-hour14.tar.gz
-mv minecraft-hour12.tar.gz minecraft-hour13.tar.gz
-mv minecraft-hour11.tar.gz minecraft-hour12.tar.gz
-mv minecraft-hour10.tar.gz minecraft-hour11.tar.gz
-mv minecraft-hour9.tar.gz minecraft-hour10.tar.gz
-mv minecraft-hour8.tar.gz minecraft-hour9.tar.gz
-mv minecraft-hour7.tar.gz minecraft-hour8.tar.gz
-mv minecraft-hour6.tar.gz minecraft-hour7.tar.gz
-mv minecraft-hour5.tar.gz minecraft-hour6.tar.gz
-mv minecraft-hour4.tar.gz minecraft-hour5.tar.gz
-mv minecraft-hour3.tar.gz minecraft-hour4.tar.gz
-mv minecraft-hour2.tar.gz minecraft-hour3.tar.gz
-mv minecraft-hour1.tar.gz minecraft-hour2.tar.gz
-mv minecraft-hour0.tar.gz minecraft-hour1.tar.gz
-
-&lt;span class=&quot;nb&quot;&gt;tar&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-cpvzf&lt;/span&gt; /root/minecraft/backups/minecraft-hour0.tar.gz /root/minecraft
-
-screen &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; Minecraft &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; stuff &lt;span class=&quot;s2&quot;&gt;&quot;save-on &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'\r'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-screen &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; Minecraft &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; stuff &lt;span class=&quot;s2&quot;&gt;&quot;say Backup complete. YEeEeET!. &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'\r'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;To schedule the backup script to run hourly…&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;crontab &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This edits the files located at /var/spool/cron/crontabs.&lt;/p&gt;
-
-&lt;p&gt;Simply add the following line and the server takes care of the rest.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;@hourly /root/minecraft/backup.sh&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;I’ve got a little bit (actually A LOT) more to learn about minecraft server maintenance, but I think it’s going to be a fun little side project.&lt;/p&gt;</content><author><name></name></author><summary type="html">The past six months have been largely consumed with a new business venture. Check out www.springendurance.com to see what’s up. I’ve started coaching athletes, mostly runners. I’m hoping to start coaching triathletes as well.</summary></entry><entry><title type="html">So your stuck in GRUB Rescue…</title><link href="http://localhost:4000/ubuntu/linux/grub/2019/02/27/so-you-got-stuck-in-grub-rescue.html" rel="alternate" type="text/html" title="So your stuck in GRUB Rescue..." /><published>2019-02-27T00:00:00-05:00</published><updated>2019-02-27T00:00:00-05:00</updated><id>http://localhost:4000/ubuntu/linux/grub/2019/02/27/so-you-got-stuck-in-grub-rescue</id><content type="html" xml:base="http://localhost:4000/ubuntu/linux/grub/2019/02/27/so-you-got-stuck-in-grub-rescue.html">&lt;p&gt;So the other day I sat down at Starbucks to write code, but my Ubuntu 18 machine was stuck in GRUB Rescue.&lt;/p&gt;
-
-&lt;p&gt;After searching and searching (on my phone), I finally found &lt;a href=&quot;http://www.linuxandubuntu.com/home/ways-to-rescue-or-recover-grub-menu&quot;&gt;a quick and easy solution&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;First, see what partitions are installed on grub.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Run the following for the partition your linux OS is running on. If you aren’t sure, try tabbing for the /boot/grub directory on each.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;prefix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt;hd0,msdos1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;/boot/grub&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Then…&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;insmod normal
-normal&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;My machine rebooted and I was able to repair grub with…&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;update-grub
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;grub-install /dev/sda&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;If you end up stuck like me, hopefully you can find help faster than I did! :)&lt;/p&gt;</content><author><name></name></author><summary type="html">So the other day I sat down at Starbucks to write code, but my Ubuntu 18 machine was stuck in GRUB Rescue.</summary></entry><entry><title type="html">Adding Application to Startup in Ubuntu</title><link href="http://localhost:4000/ubuntu/linux/terminal/guake/startup/2018/05/21/autostart-apps-on-system-startup.html" rel="alternate" type="text/html" title="Adding Application to Startup in Ubuntu" /><published>2018-05-21T00:00:00-04:00</published><updated>2018-05-21T00:00:00-04:00</updated><id>http://localhost:4000/ubuntu/linux/terminal/guake/startup/2018/05/21/autostart-apps-on-system-startup</id><content type="html" xml:base="http://localhost:4000/ubuntu/linux/terminal/guake/startup/2018/05/21/autostart-apps-on-system-startup.html">&lt;p&gt;Trying out something simple for my first jekyll post.  Leaving myself a reminder on how to launch applications on startup in Ubuntu.&lt;/p&gt;
-
-&lt;p&gt;Here’s how you would add &lt;a href=&quot;http://www.guake-project.org&quot;&gt;Guake&lt;/a&gt; to the list of startup applications.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;cp /usr/share/applications/guake.desktop /etx/xdg/autostart&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Find &lt;a href=&quot;http://github.com/guake/guake&quot;&gt;Guake on GitHub&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Trying out something simple for my first jekyll post. Leaving myself a reminder on how to launch applications on startup in Ubuntu.</summary></entry><entry><title type="html">Undoing an Unfortunate Commit</title><link href="http://localhost:4000/ubuntu/linux/terminal/git/2018/05/21/undoing-an-unfortunate-commit.html" rel="alternate" type="text/html" title="Undoing an Unfortunate Commit" /><published>2018-05-21T00:00:00-04:00</published><updated>2018-05-21T00:00:00-04:00</updated><id>http://localhost:4000/ubuntu/linux/terminal/git/2018/05/21/undoing-an-unfortunate-commit</id><content type="html" xml:base="http://localhost:4000/ubuntu/linux/terminal/git/2018/05/21/undoing-an-unfortunate-commit.html">&lt;p&gt;Sometimes you make a mistake and accidentally force commit a whole load of files that really shouldn’t have been committed…&lt;/p&gt;
-
-&lt;p&gt;Sometimes you need a way to undo your commit…and regain confidence that you aren’t a scrub.&lt;/p&gt;
-
-&lt;p&gt;Here you go…&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;git reset HEAD~&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This will undo everything that has just been committed without actually changing any of your files. &lt;em&gt;But beware&lt;/em&gt;, this should only be entered if you haven’t yet pushed your files off to the server.&lt;/p&gt;
-
-&lt;p&gt;In case you committed early and want to add something else, you can do a soft reset.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;git reset &lt;span class=&quot;nt&quot;&gt;--soft&lt;/span&gt; HEAD~&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Now you can continue adding to the files previously staged.&lt;/p&gt;
-
-&lt;p&gt;Enjoy! :)&lt;/p&gt;</content><author><name></name></author><summary type="html">Sometimes you make a mistake and accidentally force commit a whole load of files that really shouldn’t have been committed…</summary></entry></feed>
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name>Jennifer Onuoha</name></author><summary type="html"></summary></entry></feed>

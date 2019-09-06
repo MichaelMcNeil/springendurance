@@ -197,7 +197,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-header { text-align: center; }
 
-.column { float: left; width: 30%; text-align: center; margin: 1%; }
+.twocol { float: left; width: 48%; text-align: center; margin: 1%; }
+
+.threecol { float: left; width: 30%; text-align: center; margin: 1%; }
 
 /* Clear floats after the columns */
 .row:after { content: ""; display: table; clear: both; }

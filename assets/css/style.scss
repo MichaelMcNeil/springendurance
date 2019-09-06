@@ -7,7 +7,14 @@
   text-align: center;
 }
 
-.column {
+.twocol {
+  float: left;
+  width: 48%;
+  text-align: center;
+  margin: 1%;
+}
+
+.threecol {
   float: left;
   width: 30%;
   text-align: center;
