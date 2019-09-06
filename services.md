@@ -5,7 +5,7 @@ permalink: /services/
 ---
 
 <div style="text-align: center;" markdown="1">
-<div style="width: 300px; margin: auto;">
+<div style="width: 300px; margin: auto;" markdown="1">
 <img src="/assets/logo.png" style="display: inline; float: left; height: 100px; margin-left: 20px;;" />
 <h1 style="font-size: 60px;">$48</h1><p> / 4 weeks</p>
 </div>
@@ -23,6 +23,8 @@ permalink: /services/
 **Included:** HR-Based Training, Video Gait Analysis, Strength Training Plans
 
 _For more details, read through the [new athlete welcome](/welcome)._
+
+_*pricing for the 2018 season*_
 <br>
 <br>
 
