@@ -5,6 +5,7 @@ permalink: "boston-bound-and-thankful"
 author: "Jennifer Onuoha"
 date: 2019-09-05
 categories:
+image: header.jpg
 ---
 
 <img src="/assets/posts/boston-bound-and-thankful/header.jpg">
