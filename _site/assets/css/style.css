@@ -228,4 +228,5 @@ a:visited { color: black; }
 @media screen and (max-width: 768px) { .threecol { width: 100%; }
   .twocol { width: 100%; }
   .onethird { width: 100%; }
-  .twothird { width: 100%; } }
+  .twothird { width: 100%; }
+  iframe { width: 100%; } }
