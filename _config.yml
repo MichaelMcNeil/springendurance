@@ -25,6 +25,9 @@ linkedin_username:
 github_username:
 instagram_username: improvedbyplants
 
+include: ['_pages']
+include: ['_forms']
+
 google-analytics: UA-147475824-1
 
 # Build settings
