@@ -15,6 +15,7 @@ _Schedule an appointment for your introductory consultation._
 
 <img src="/assets/logo.png" style="display: inline; float: left; height: 45px; padding-right: 10px;" />
 # Information
+- Complete the [Client Profile](/profile){:target="_blank"}
 - Complete the [Waiver of Liability](/waiver){:target="_blank"}
 - Complete the [Health History Questionnaire](/hhq){:target="_blank"}
 - Complete the [Physical Activity Readiness Questionnaire](/parq){:target="_blank"}
