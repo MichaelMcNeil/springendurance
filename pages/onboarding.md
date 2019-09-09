@@ -15,13 +15,13 @@ _Schedule an appointment for your introductory consultation._
 
 <img src="/assets/logo.png" style="display: inline; float: left; height: 45px; padding-right: 10px;" />
 # Information
-- Complete the [Waiver of Liability](/waiver)
-- Complete the [Health History Questionnaire](/hhq)
-- Complete the [Physical Activity Readiness Questionnaire](/parq)
+- Complete the [Waiver of Liability](/waiver){:target="_blank"}
+- Complete the [Health History Questionnaire](/hhq){:target="_blank"}
+- Complete the [Physical Activity Readiness Questionnaire](/parq){:target="_blank"}
 
 <img src="/assets/logo.png" style="display: inline; float: left; height: 45px; padding-right: 10px;" />
 # Training Peaks
-Add me as your coach by [creating and account or logging in.](https://home.trainingpeaks.com/attachtocoach?sharedKey=M6QGQ6SHEZZBO)
+Add me as your coach by [creating and account or logging in.](https://home.trainingpeaks.com/attachtocoach?sharedKey=M6QGQ6SHEZZBO){:target="_blank"}
 
 <img src="/assets/logo.png" style="display: inline; float: left; height: 45px; padding-right: 10px;" />
 # Let's Talk
