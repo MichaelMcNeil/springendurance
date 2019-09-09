@@ -22,7 +22,7 @@ _Schedule an appointment for your introductory consultation._
 
 <img src="/assets/logo.png" style="display: inline; float: left; height: 45px; padding-right: 10px;" />
 # Training Peaks
-Add me as your coach by [creating and account or logging in.](https://home.trainingpeaks.com/attachtocoach?sharedKey=M6QGQ6SHEZZBO){:target="_blank"}
+Add me as your coach by [creating an account or logging in.](https://home.trainingpeaks.com/attachtocoach?sharedKey=M6QGQ6SHEZZBO){:target="_blank"}
 
 <img src="/assets/logo.png" style="display: inline; float: left; height: 45px; padding-right: 10px;" />
 # Let's Talk
