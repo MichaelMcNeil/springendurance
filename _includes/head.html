@@ -7,6 +7,9 @@
   }}">
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
 
+  {% if jekyll.environment == 'production' %} {% include analytics.html %} {%
+  endif %}
+
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="article" />
   <meta
