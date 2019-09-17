@@ -221,7 +221,7 @@ a:visited { color: black; }
 
 .threecol { float: left; width: 30%; text-align: center; margin: 1%; }
 
-.center { text-align: center; }
+.center { text-align: center; margin: auto; }
 
 /* Clear floats after the columns */
 .row:after { content: ""; display: table; clear: both; }
