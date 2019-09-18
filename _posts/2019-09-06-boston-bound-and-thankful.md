@@ -6,7 +6,10 @@ author: "Jennifer Onuoha"
 date: 2019-09-06
 categories:
 description: My journey to Boston, to a FAST 50-miler, and finding a coach.
-image: /assets/posts/boston-bound-and-thankful/header.jpg
+image:
+  path: /assets/posts/boston-bound-and-thankful/header.jpg
+  height: 403
+  width: 637
 ---
 
 <img src="/assets/posts/boston-bound-and-thankful/header.jpg">
