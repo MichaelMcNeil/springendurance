@@ -1,6 +1,7 @@
 ---
 layout: page
 title: For New Athletes
+description: Information for anyone new to Spring or simply curious about personalized run coaching!
 permalink: /welcome/
 ---
 

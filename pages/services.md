@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Next Step - Hire A Coach
+description: An overview of the personalized coaching services offered here at Spring Endurance + Wellness.
 permalink: /services/
 ---
 

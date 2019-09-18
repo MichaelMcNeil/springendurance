@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Get In Touch
+description: Interested in running faster races or hitting new health goals?  Let us know!
 permalink: /hello/
 ---
 
