@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About Coach Michael
-description: Get to know Coach Michael McNeil and the vision behind Spring Endurance + Wellness.
-image: /assets/michaelmcneil.relazed.jpg
+description: Get to know Coach Michael Curtis and the vision behind Spring Endurance + Wellness.
+image: /assets/michaelmcneil.relaxed.jpg
 permalink: /about/
 ---
 
