@@ -16,7 +16,7 @@
 title: Spring Endurance + Wellness
 header-title: spring endurance + wellness
 email: hello@springendurance.com
-author: Michael McNeil
+author: Michael Curtis
 description: Helping athletes find joy through purposeful training.
 
 
@@ -24,7 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://springendurance.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assests/main-logo.png
 social:
-  name: Michael McNeil
+  name: Michael Curtis
   links:
     - https://instagram.com/improvedbyplants
     - https://www.facebook.com/michael.mcneil.5855594
