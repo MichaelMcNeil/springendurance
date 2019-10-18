@@ -1,8 +1,161 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-20T13:47:04-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Spring Endurance + Wellness</title><subtitle>Helping athletes find joy through purposeful training.</subtitle><author><name>Michael McNeil</name></author><entry><title type="html">Let’s Talk About Feelings</title><link href="http://localhost:4000/lets-talk-about-feelings" rel="alternate" type="text/html" title="Let's Talk About Feelings" /><published>2019-09-20T00:00:00-04:00</published><updated>2019-09-20T00:00:00-04:00</updated><id>http://localhost:4000/lets-talk-about-feelings</id><content type="html" xml:base="http://localhost:4000/lets-talk-about-feelings">&lt;p&gt;&lt;img src=&quot;/assets/posts/lets-talk-about-feelings/header.png&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-18T14:40:09-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Spring Endurance + Wellness</title><subtitle>Helping athletes find joy through purposeful training.</subtitle><author><name>Michael Curtis</name></author><entry><title type="html">Training Benchmarks</title><link href="http://localhost:4000/training-benchmarks" rel="alternate" type="text/html" title="Training Benchmarks" /><published>2019-10-16T00:00:00-04:00</published><updated>2019-10-16T00:00:00-04:00</updated><id>http://localhost:4000/training-benchmarks</id><content type="html" xml:base="http://localhost:4000/training-benchmarks">&lt;blockquote&gt;
+  &lt;p&gt;Disclaimer - Data should not be used as a replacement for coach/athlete intuition. Rather the goal is to capture and report data in a meaningful way so that coach/athlete intuition can be tested and informed.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;aerobic-threshold-benchmarks&quot;&gt;Aerobic Threshold Benchmarks&lt;/h1&gt;
+
+&lt;p&gt;In progress….&lt;/p&gt;
+
+&lt;h1 id=&quot;anerobic-threshold-benchmarks-ex-1-mile-5k-10k-or-10-30-60-minute-tt&quot;&gt;Anerobic Threshold Benchmarks (Ex. 1 Mile, 5k, 10k or 10, 30, 60 minute TT)&lt;/h1&gt;
+
+&lt;p&gt;Tracking average pace for like distance or duration at near to above Anaerobic Threshold can help measure your aerobic endurance &lt;em&gt;(your ability to sustain power over time)&lt;/em&gt; and aerobic power &lt;em&gt;(your ability to produce power aerobically regardless of time)&lt;/em&gt;. Your actual results are a combination of your aerobic and anaerobic abilities, but sessions of at least 10 minutes for untrainined individuals or 30 minutes for trained individuals help minimize the amount of anaerobic input. I prefer to look at this metric as a function of pace rather than completion time, because the confidence of average pace can be validated by correlating it with the range of minimum and maximum pace over the session.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Goals&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Increase the duration or distance of sessions as mastery of shorter sessions develop.&lt;/li&gt;
+  &lt;li&gt;Increase the average pace for sessions of like distance/duration, but…&lt;/li&gt;
+  &lt;li&gt;Minimize the range between minumum and maximum pace.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;For Example…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Imagine a 30 minute time-trial where one athlete begins at 6 minutes/mile and steadily declines in pace to 8 minutes/mile throughout the session. He averages 7 minutes/mile (4.29 miles). A second athlete begins a 30 minute time-trial, she begins at 7:10 minutes/mile and steadily pushes herself to 6:50 minutes/mile at the end of the session. She averages 7 minutes/mile.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Athlete&lt;/th&gt;
+      &lt;th&gt;Duration&lt;/th&gt;
+      &lt;th&gt;Average Pace&lt;/th&gt;
+      &lt;th&gt;(Min - Max) Pace&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;30 minutes&lt;/td&gt;
+      &lt;td&gt;7 minutes/mile&lt;/td&gt;
+      &lt;td&gt;2 minutes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;30 minutes&lt;/td&gt;
+      &lt;td&gt;7 minutes/mile&lt;/td&gt;
+      &lt;td&gt;20 seconds&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The second athlete shows more self awareness in pacing (which is a desireable skill to develop), and we also have more confidence that her average pace for the duration accurately reflects her current aerobic endurance. The first athlete showed less self awareness and likely had a greater anaerobic influence, which quickly depleted, making it more uncertain that his average 7 minutes/mile reflects an intensity that he can sustain for 30 minutes.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Athlete&lt;/th&gt;
+      &lt;th&gt;Outcomes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;- Should continue to work on his self-regulation and body awareness &lt;br /&gt;- Might focus on developing aerobic power to decrease reliance on anaerobic power&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;- Might increase the duration or distance of threshold sessions if it fits her goals &lt;br /&gt;- Should increase the intensity of threshold sessions to accomodate her adaptations&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;aerobic--anaerobic-power-benchmarks&quot;&gt;Aerobic / Anaerobic Power Benchmarks&lt;/h1&gt;
+
+&lt;p&gt;Benchmarking Aerobic and Anaerobic Power &lt;em&gt;(your ability to produce power)&lt;/em&gt; is best accomplished by measuring the distance completed of time-based repetitions or the average pace of distance-based repetitions. By decreasing the recovery interval between repetitions to 1:1 or less, your body’s ability to rely on anaerobic systems for energy decline and more reliance from aerobic systems occur. To target anaerobic energy systems, a greater repetition:recovery-interval ratio should be used, such as 1:5.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is not a hard switch. At all intensities the body produces energy aerobically and anaerobically because all muscles function on an aerobic -&amp;gt; anaerobic spectrum. Ex. Type I (Slow) fibers are not completely aerobic, nor do they all have the same ratio of slow-&amp;gt;fast myosin.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Goals&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Increase the duration or distance of repetitions as long as intensity &amp;gt; race pace can be maintained.&lt;/li&gt;
+  &lt;li&gt;Increase the average distance completed during time-based repetitions&lt;/li&gt;
+  &lt;li&gt;Decrease the average completion time of distance-based repetitions&lt;/li&gt;
+  &lt;li&gt;Minimize the range between minumums and maximums (consistency across repetitions).&lt;/li&gt;
+  &lt;li&gt;An increase in the rate of heart-rate recovery during the recovery intervals over like workouts.&lt;/li&gt;
+  &lt;li&gt;A decrease in the minimum heart-rate at the end of recovery-intervals over like workouts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;For example…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Athlete 1 and 2 both perform a 5 repetition x 1 minute workout with 1:1 intervals. Athlete 1 will have inconsistent intervals, where athlete 2 will be more consistent.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Athlete&lt;/th&gt;
+      &lt;th&gt;Rep-1&lt;/th&gt;
+      &lt;th&gt;Rep-2&lt;/th&gt;
+      &lt;th&gt;Rep-3&lt;/th&gt;
+      &lt;th&gt;Rep-4&lt;/th&gt;
+      &lt;th&gt;Rep-5&lt;/th&gt;
+      &lt;th&gt;Avg Distance&lt;/th&gt;
+      &lt;th&gt;(Min-Max) Distance&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;400m&lt;/td&gt;
+      &lt;td&gt;300m&lt;/td&gt;
+      &lt;td&gt;325m&lt;/td&gt;
+      &lt;td&gt;410m&lt;/td&gt;
+      &lt;td&gt;270m&lt;/td&gt;
+      &lt;td&gt;341m&lt;/td&gt;
+      &lt;td&gt;140m&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;335m&lt;/td&gt;
+      &lt;td&gt;345m&lt;/td&gt;
+      &lt;td&gt;350m&lt;/td&gt;
+      &lt;td&gt;340m&lt;/td&gt;
+      &lt;td&gt;320m&lt;/td&gt;
+      &lt;td&gt;340m&lt;/td&gt;
+      &lt;td&gt;30m&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Athlete 1 shows a lack of self-regulation, and &lt;em&gt;possibly&lt;/em&gt; greater anaerobic ability than athlete 2 based on his high rep-1. Athlete 2 shows a strong competency for self-regulating over 1 minute 1:1 repetitions, and the ability to perform aerobically at this intensity, given the relatively short recoveries.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Athlete&lt;/th&gt;
+      &lt;th&gt;Outcomes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;- Should continue to work on his self-regulation and body awareness &lt;br /&gt;- Might focus on developing aerobic capacity and grow into his high power output&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;- Might considering programming that boosts, in this case, her aerobic power. (or anaerobic if this was closer to 1:5 recovery-intervals)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Michael Curtis</name></author><summary type="html">Disclaimer - Data should not be used as a replacement for coach/athlete intuition. Rather the goal is to capture and report data in a meaningful way so that coach/athlete intuition can be tested and informed.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22path%22=%3Enil,%20%22height%22=%3E403,%20%22width%22=%3E637%7D" /></entry><entry><title type="html">Let’s Talk About Feelings</title><link href="http://localhost:4000/lets-talk-about-feelings" rel="alternate" type="text/html" title="Let's Talk About Feelings" /><published>2019-09-20T00:00:00-04:00</published><updated>2019-09-20T00:00:00-04:00</updated><id>http://localhost:4000/lets-talk-about-feelings</id><content type="html" xml:base="http://localhost:4000/lets-talk-about-feelings">&lt;p&gt;&lt;img src=&quot;/assets/posts/lets-talk-about-feelings/header.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;tl;dr - &lt;strong&gt;It is useful to track not only your workout data, but also how you feel during training.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;A few days ago I was on the phone with a client. We were just connecting for a moment to handle some business, not to discuss training, but I was about a 3 minute walk from home and decided to connect on the previous days workout. This particular athlete is EXTREMELY disciplined at providing feedback after every workout (usually overall feeling, rpe, and some general comments), but for this workout no feedback was given and my take from the data was that it didn’t go very well. He agreed, noting that he just “wasn’t feeling it.”&lt;/p&gt;</content><author><name>Michael McNeil</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/posts/lets-talk-about-feelings/header.png" /></entry><entry><title type="html">Progress Report</title><link href="http://localhost:4000/progress-template" rel="alternate" type="text/html" title="Progress Report" /><published>2019-09-16T00:00:00-04:00</published><updated>2019-09-16T00:00:00-04:00</updated><id>http://localhost:4000/progress-template</id><content type="html" xml:base="http://localhost:4000/progress-template">&lt;p&gt;&lt;img src=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A few days ago I was on the phone with a client. We were just connecting for a moment to handle some business, not to discuss training, but I was about a 3 minute walk from home and decided to connect on the previous days workout. This particular athlete is EXTREMELY disciplined at providing feedback after every workout (usually overall feeling, rpe, and some general comments), but for this workout no feedback was given and my take from the data was that it didn’t go very well. He agreed, noting that he just “wasn’t feeling it.”&lt;/p&gt;
+
+&lt;p&gt;My gut told me this was a pattern, that over the last few higher intensity sessions he was having trouble shifting gears.&lt;/p&gt;
+
+&lt;p&gt;We’ve been working on building general fitness for a few months, and this last period we’ve started strengthening his endurance base - spending more time at about 95% MLSSv during significant workouts.&lt;/p&gt;</content><author><name>Michael Curtis</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/posts/lets-talk-about-feelings/header.png" /></entry><entry><title type="html">Progress Report</title><link href="http://localhost:4000/progress-template" rel="alternate" type="text/html" title="Progress Report" /><published>2019-09-16T00:00:00-04:00</published><updated>2019-09-16T00:00:00-04:00</updated><id>http://localhost:4000/progress-template</id><content type="html" xml:base="http://localhost:4000/progress-template">&lt;p&gt;&lt;img src=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hi Seth! Here’s a look at your progress between &lt;em&gt;9.1.2019 &amp;amp; 9.16.2019&lt;/em&gt;.&lt;/p&gt;
 
@@ -79,7 +232,7 @@
 
 &lt;h1 id=&quot;purpose-of-the-coming-period&quot;&gt;Purpose of the Coming Period&lt;/h1&gt;
 
-&lt;p&gt;The purpose of this period is…&lt;/p&gt;</content><author><name>Michael McNeil</name></author><summary type="html"></summary></entry><entry><title type="html">Boston Bound and Thankful</title><link href="http://localhost:4000/boston-bound-and-thankful" rel="alternate" type="text/html" title="Boston Bound and Thankful" /><published>2019-09-06T00:00:00-04:00</published><updated>2019-09-06T00:00:00-04:00</updated><id>http://localhost:4000/boston-bound-and-thankful</id><content type="html" xml:base="http://localhost:4000/boston-bound-and-thankful">&lt;p&gt;&lt;img src=&quot;/assets/posts/boston-bound-and-thankful/header.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The purpose of this period is…&lt;/p&gt;</content><author><name>Michael Curtis</name></author><summary type="html"></summary></entry><entry><title type="html">Boston Bound and Thankful</title><link href="http://localhost:4000/boston-bound-and-thankful" rel="alternate" type="text/html" title="Boston Bound and Thankful" /><published>2019-09-06T00:00:00-04:00</published><updated>2019-09-06T00:00:00-04:00</updated><id>http://localhost:4000/boston-bound-and-thankful</id><content type="html" xml:base="http://localhost:4000/boston-bound-and-thankful">&lt;p&gt;&lt;img src=&quot;/assets/posts/boston-bound-and-thankful/header.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As a runner, I always wonder if I’m prepared for an upcoming race. Are these shoes the right ones? Is my nutrition good? Am I hydrated well or did I hydrate too much? Did I do well for each training session? We do our best to prepare for the race, and we give our best on race day.&lt;/p&gt;
 

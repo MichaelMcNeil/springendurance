@@ -2,7 +2,7 @@
 layout: post
 title: "Let's Talk About Feelings"
 permalink: "lets-talk-about-feelings"
-author: "Michael McNeil"
+author: "Michael Curtis"
 date: 2019-09-20
 categories:
 description: A look into why athletes should keep record of workout data and feelings to optimize their training.
