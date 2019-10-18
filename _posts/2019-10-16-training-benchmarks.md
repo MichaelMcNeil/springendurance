@@ -5,9 +5,9 @@ permalink: "training-benchmarks"
 author: "Michael Curtis"
 date: 2019-10-16
 categories:
-description: What benchmarks do I use to monitor training and progress?
+description: "What benchmarks do I use to monitor training and progress?"
 image:
-  path:
+  path: /assets/time-in-zones.png
   height: 403
   width: 637
 ---
