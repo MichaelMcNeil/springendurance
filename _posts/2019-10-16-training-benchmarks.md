@@ -14,13 +14,46 @@ image:
 
 > Disclaimer - Data should not be used as a replacement for coach/athlete intuition. Rather the goal is to capture and report data in a meaningful way so that coach/athlete intuition can be tested and informed.
 
+tl;dr - To create training plans that support a desired, future performance, and in order to measure the ways in which those plans were successful/unsuccessful, coaches and athletes should regularly take metrics on contributors of athlete performance. Also, measuring an athlete's fitness widely, and not only narrowly (at a single intensity), ensures balanced athletic development across the spectrum. Lastly, performance is key. Whatever improves performance the most is most important.
+
+> Disclaimer 2 - I'm currently developing an application and personal database for my athletes' workouts to help inform my coaching decisions. These aren't the only metrics that are important in creating a training plan, and metrics are only one factor of creating a plan. Further, these are the kinds of metrics that provide insight only after an athlete has been training regularly for some time. **i.e. You shouldn't use any of the below metrics in a vacuum.**
+
+_TOC:_
+
+- [Aerobic Threshold Benchmarks](#aerobic-threshold-benchmarks)
+- [Anaerobic Threshold Benchmarks](#anaerobic-threshold-benchmarks-ex-1-mile-5k-10k-or-10-30-60-minute-tt)
+- [Aerobic / Anaerobic Power Benchmarks](#aerobic--anaerobic-power-benchmarks)
+
 # Aerobic Threshold Benchmarks
 
-In progress....
+It's not a secret that easy, steady-state, aerobic training is valuable for all athletes - but how much - and how can you recognize progress - or lack thereof - from everyday gps and heart-rate data. It's one thing to empiracally say, "I can run further now than I could 6 months ago." It's another thing to quantify, "what mixes and types of load produced the greatest aerobic developments during the last 6 months," and then use that to maximize training adaptations in the future. To answer that question we have to actually track aerobic developments in a meaningful way.
 
-# Anerobic Threshold Benchmarks (Ex. 1 Mile, 5k, 10k or 10, 30, 60 minute TT)
+I monitor this in two ways: one, I watch for improvements in pace at similar efforts governed by perceived exertion or training in a defined heart-rate zone. and two, I watch for decreases in ratio of pace:heart-rate between the first and second halves of a steady-state session, that is, aerobic decoupling. It's commonly affirmed that a ratio with 5% or less variance shows a mastery for that particular intensity and distance. That is, the pace you maintain for the second half of your workout only varied in cardio-respiratory cost by 5% or less from the pace you maintained in the first half of your workout. Aerobic-decoupling can be a very valuable metric, but can easily be skewed by temperature, residual fatigue, and elevation.
 
-Tracking average pace for like distance or duration at near to above Anaerobic Threshold can help measure your aerobic endurance _(your ability to sustain power over time)_ and aerobic power _(your ability to produce power aerobically regardless of time)_. Your actual results are a combination of your aerobic and anaerobic abilities, but sessions of at least 10 minutes for untrainined individuals or 30 minutes for trained individuals help minimize the amount of anaerobic input. I prefer to look at this metric as a function of pace rather than completion time, because the confidence of average pace can be validated by correlating it with the range of minimum and maximum pace over the session.
+**Goals**
+
+- Increase the pace sustainable for efforts at aerobic intensities.
+- Increase the duration or distance of long-runs as decoupling improves (~5% or less).
+
+_For Example..._
+
+Two atheletes go out and run 7.5 miles in 1 hour (8 minutes/mile). Let's assume they each begin the run at 8:10 minutes/mile, and both climb at the same rate finishing at 7:50 minutes/mile. Fives minutes in, Athlete 1 and 2 each measure a heart-rate of 135. However, 35 minutes into the workout Athlete 1's heart-rate climbs quickly to 175, while Athlete 2 stays mostly constant, finishing at 140.
+
+| Athlete | Pace1 (min/mi) | Pace2 (min/mi) | AvgHr1 | AvgHr2 | Decoupling <br>(Pace1/Hr1 - Pace2/Hr2) / (Pace1/Hr1) |
+| ------- | -------------- | -------------- | ------ | ------ | ---------------------------------------------------- |
+| 1       | 8:05           | 7:55           | 145    | 172    | 17%                                                  |
+| 2       | 8:05           | 7:55           | 136    | 138    | 3.5%                                                 |
+
+Even though both the above athletes ran for the exact same time and distance, they got very different workouts. Athlete 1 is likely to be very fatigued after this effort, given the second half of the workout had a 17% higher cardio-respiratory cost than the first half. Athlete 2 probably felt no noticeable change in effort during this run and would likely rate it very easy - easy.
+
+| Athlete | Outcomes                                                                                                                                                               |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1       | - Might not want to increase the duration of the run until decoupling improves <br>- Should not attempt this workout volume regularly, but rather use it as a long run |
+| 2       | - Could easily use this effort as maintenance or even recovery <br>- Should consider an increase in pace for greater aerobic development during workouts of 1 hour     |
+
+# Anaerobic Threshold Benchmarks (Ex. 1 Mile, 5k, 10k or 10, 30, 60 minute TT)
+
+Tracking average pace for like distance or duration at near-to-above Anaerobic Threshold can help measure your aerobic endurance _(your ability to sustain power over time)_ and aerobic power _(your ability to produce power aerobically regardless of time)_. Your actual results are a combination of your aerobic and anaerobic abilities, but sessions of at least 10 minutes for untrainined individuals or 30 minutes for trained individuals help minimize the amount of anaerobic input. I prefer to look at this metric as a function of pace rather than completion time, because the confidence of average pace can be validated by correlating it with the range of minimum and maximum pace over the session.
 
 **Goals**
 
