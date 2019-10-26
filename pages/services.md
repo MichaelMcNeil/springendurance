@@ -51,7 +51,7 @@ permalink: /services/
 <div class="center" markdown="1">
 _For more details, read through the [new athlete welcome](/welcome)._
 
-_*pricing for the 2018 season*_
+_*pricing for the 2019 season*_
 <br>
 <br>
 
