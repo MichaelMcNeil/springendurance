@@ -39,6 +39,7 @@ include: ['pages']
 include: ['_forms']
 
 google-analytics: UA-147475824-1
+snipcart_key: "YTc4ODM4MWEtODUyMS00ZWQxLWIwMWUtMmNkNzc2YzBkMjRjNjM3MDc3ODUxODQxMDkxMDIw"
 
 # Build settings
 markdown: kramdown

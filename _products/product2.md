@@ -1,6 +1,6 @@
 ---
-identifier: test
-name: Starry Night
+identifier: test2
+name: Starry Nightstest
 price: 79.95
 image: /assets/logo.png
 ---
