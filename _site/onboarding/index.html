@@ -14,7 +14,7 @@
 <meta property="og:url" content="http://localhost:4000/onboarding/" />
 <meta property="og:site_name" content="Spring Endurance + Wellness" />
 <script type="application/ld+json">
-{"description":"Helping athletes find joy through purposeful training.","@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assests/main-logo.png"},"name":"Michael Curtis"},"url":"http://localhost:4000/onboarding/","author":{"@type":"Person","name":"Michael Curtis"},"headline":"Start Onboarding","@context":"http://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assests/main-logo.png"},"name":"Michael Curtis"},"@type":"WebPage","url":"http://localhost:4000/onboarding/","author":{"@type":"Person","name":"Michael Curtis"},"description":"Helping athletes find joy through purposeful training.","headline":"Start Onboarding","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
@@ -24,10 +24,16 @@
   <link
     href="https://fonts.googleapis.com/css?family=Amatic+SC|Chelsea+Market|Open+Sans|Oswald:200|Roboto&display=swap"
     rel="stylesheet"
+  />
+
+  <!-- SnipCart Content -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.css"
   /><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Spring Endurance + Wellness" /></head>
 <body><header class="site-header">
 
-  <div style="padding-right:20px; padding-left 20px;"" class=""><img src="/assets/logo.png" style="float: left; height: 50px; margin-left: 20px;;" />
+  <div style="padding-right:20px; padding-left: 20px" class=""><img src="/assets/logo.png" style="float: left; height: 50px; margin-left: 20px;;" />
     <a class="site-title" rel="author" href="/">spring endurance + wellness</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -60,7 +66,8 @@
 </nav>
 
         </div>
-      </nav></div>
+      </nav><button class="snipcart-checkout">Click here to checkout</button>
+  </div>
 </header><main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post">
@@ -131,5 +138,6 @@
 
 </footer>
 </body>
-
+  <div hidden id="snipcart" data-api-key="YTc4ODM4MWEtODUyMS00ZWQxLWIwMWUtMmNkNzc2YzBkMjRjNjM3MDc3ODUxODQxMDkxMDIw"></div>
+  <script src="https://cdn.snipcart.com/themes/v3.0/default/snipcart.js" defer></script>
 </html>
