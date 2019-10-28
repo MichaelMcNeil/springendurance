@@ -11,13 +11,13 @@ permalink: /about/
     <img height="200px" src="/assets/images/michaelmcneil-relaxed.jpg" />
     <br><br>
     <h1>BACKGROUND</h1>
-      After nearly a decade of post college weight gain, a News Years Resolution took me outside for a run. Six months, some new eating habits, and regular running helped me drop 60 pounds (found my racing weight after losing 80).  
-      <br>
-      <br>
       I love running. I love coaching. I love learning. I love finding new ways to analyze data. I LOVE helping other set and hit goals. Whether you aim to improve your body composition or <a href="/boston-bound-and-thankful" target="_blank">qualify for a world marathon</a>, I can help you get there.
       <br>
       <br>
-      Personally, I'm really getting excited about triathlon, yet running is still my first love. I've got HUGE goals for next year! Feel free to ask!
+      Personally, I'm really getting excited about triathlon, yet running is still my first love. I've got HUGE goals for 2020! Feel free to ask!
+      <br>
+      <br>
+      I have a background in software design and data analysis.  Currently designing an app that will change the way you set goals and train. TBA.
   </div>
   <div class="threecol">
     <img height="200px" src="/assets/images/uesca-clipped.png" />
