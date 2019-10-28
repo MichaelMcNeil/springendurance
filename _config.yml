@@ -45,7 +45,7 @@ snipcart_key: "YTc4ODM4MWEtODUyMS00ZWQxLWIwMWUtMmNkNzc2YzBkMjRjNjM3MDc3ODUxODQxM
 
 # Build settings
 markdown: kramdown
-theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -62,4 +62,13 @@ plugins:
 #   - vendor/ruby/
 
 collections:
- - products
+  products:
+    output: true
+    permalink: /shop/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: product
