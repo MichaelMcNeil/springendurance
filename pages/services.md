@@ -9,7 +9,7 @@ permalink: /services/
   <div class="twocol" markdown="1">
 # Perfomace Coaching
   <div style="width: 300px; margin: auto;">
-    <img src="/assets/logo.png" style="display: inline; float: left; height: 100px; margin-left: 20px;" />
+    <img src="/assets/images/logo.png" style="display: inline; float: left; height: 100px; margin-left: 20px;" />
     <h1 style="font-size: 60px;">$80</h1><p> / 4 weeks</p>
   </div>
 
@@ -33,7 +33,7 @@ permalink: /services/
   <div class="twocol" markdown="1">
 # Wellness Coaching
   <div style="width: 300px; margin: auto;">
-  <img src="/assets/logo.png" style="display: inline; float: left; height: 100px; margin-left: 20px;" />
+  <img src="/assets/images/logo.png" style="display: inline; float: left; height: 100px; margin-left: 20px;" />
   <h1 style="font-size: 60px;">$48</h1><p> / 4 weeks</p>
   </div>
 

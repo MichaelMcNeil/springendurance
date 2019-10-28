@@ -28,12 +28,14 @@ social:
   links:
     - https://instagram.com/improvedbyplants
     - https://www.facebook.com/michael.mcneil.5855594
+    - https://www.facebook.com/springendurancewellness
     - https://instagram.com/springendurance
 
 # twitter_username: jekyllrb
 linkedin_username:
 github_username:
 instagram_username: improvedbyplants
+facebook_username: springendurancewellness
 
 include: ['pages']
 include: ['_forms']

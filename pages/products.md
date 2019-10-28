@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: products
 title: Store
-description: Our Items that we sell.
-image: /assets/michaelmcneil.relaxed.jpg
-permalink: /products/
+description: Take a look at our listings!
+image:
+permalink: /shop/
 ---
 
 {% for product in site.products %}

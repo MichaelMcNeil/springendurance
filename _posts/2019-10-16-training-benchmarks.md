@@ -7,7 +7,7 @@ date: 2019-10-16
 categories:
 description: "What benchmarks do I use to monitor training and progress?"
 image:
-  path: /assets/time-in-zones.png
+  path: /assets/images/time-in-zones.png
   height: 403
   width: 637
 ---

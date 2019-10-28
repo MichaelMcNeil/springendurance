@@ -1,0 +1,21 @@
+a {
+  color: $color--primary;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($color--primary, 15%);
+  }
+
+  &:hover {
+    color: $color--default;
+    text-decoration: underline;
+  }
+
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }
+}

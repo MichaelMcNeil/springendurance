@@ -8,7 +8,7 @@ permalink: /about/
 
 <div class="row">
   <div class="threecol">
-    <img height="200px" src="/assets/michaelmcneil-relaxed.jpg" />
+    <img height="200px" src="/assets/images/michaelmcneil-relaxed.jpg" />
     <br><br>
     <h1>BACKGROUND</h1>
       After nearly a decade of post college weight gain, a News Years Resolution took me outside for a run. Six months, some new eating habits, and regular running helped me drop 60 pounds (found my racing weight after losing 80).  
@@ -20,7 +20,7 @@ permalink: /about/
       Personally, I'm really getting excited about triathlon, yet running is still my first love. I've got HUGE goals for next year! Feel free to ask!
   </div>
   <div class="threecol">
-    <img height="200px" src="/assets/uesca-clipped.png" />
+    <img height="200px" src="/assets/images/uesca-clipped.png" />
     <br><br>
     <h1>TRAINING</h1>
       I am a Certified Running Coach with <a href="https://coachendurancesports.com/" target="_blank">UESCA</a> because UESCA takes training seriously. Certification is not a participation award, and training paradigms are grounded in extensive research. Without a solid foundation in science and physiology a coach can only prescribe training based on experience, or a guess.  UESCA helps coaches know WHY certain things work and certain things don't.
@@ -30,7 +30,7 @@ permalink: /about/
 
   </div>
   <div class="threecol">
-    <img height="200px" src="/assets/logo.png" />
+    <img height="200px" src="/assets/images/logo.png" />
     <br><br>
     <h1>PASSION</h1>
       The inspiration for the name "Spring Endurance" was born out passion for the plant-based lifestyle.
