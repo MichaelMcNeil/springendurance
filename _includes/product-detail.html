@@ -5,7 +5,8 @@
 {% endif %}
 
 <div class="product">
-  <div class="product__information">
+      <img src="{{ product.image }}" alt="{{ product.name }} product image" class="product__image">
+   <div class="product__information">
      <h2 class="product__title">
         {% if link-active %}
          <a href="/shop/{{product.identifier }}">{{ product.name }}</a>
@@ -16,5 +17,5 @@
      <p class="product__description">{{ product.content | remove: '<p>' | remove: '</p>' }}</p>
      {% include product-definition.html %}
   </div>
-  <img src="{{ product.image }}" alt="{{ product.name }} product image" class="product__image">
+  
  </div>

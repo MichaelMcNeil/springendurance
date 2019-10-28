@@ -60,7 +60,7 @@
   align-items: center;
   margin-bottom: 20px;
   flex-direction: row;
-  &:nth-of-type(even) {
+  &:nth-of-type(odd) {
     flex-direction: row-reverse;
   }
 
@@ -90,7 +90,7 @@
 
   @include sm {
     flex-direction: column;
-    &:nth-of-type(even) {
+    &:nth-of-type(odd) {
       flex-direction: column;
     }
     justify-content: center;
