@@ -22,7 +22,7 @@ description: Helping athletes find joy through purposeful training.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://springendurance.com" # the base hostname & protocol for your site, e.g. http://example.com
-logo: /assests/main-logo.png
+logo: /assests/images/main-logo.png
 social:
   name: Michael Curtis
   links:
