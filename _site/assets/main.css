@@ -46,7 +46,7 @@ h2 { font-family: "Oswald", sans-serif; font-weight: 200; font-size: 24px; }
   .product:nth-of-type(odd) { flex-direction: column; } }
 .product__information { flex: 1; margin-left: 32px; }
 @media (max-width: 1100px) { .product__information { margin-left: 0; } }
-.product__image { flex: 1; height: 100%; width: 100%; max-width: 500px; max-height: 400px; background-size: cover; transform: perspective(650px) rotateZ(-5deg) rotateX(2.5deg) rotateY(15deg) scale(0.8) translateX(-30px); box-shadow: -30px 30px 50px rgba(28, 45, 21, 0.1); margin-right: auto; border-radius: 8px; }
+.product__image { flex: 1; height: 100%; width: 100%; z-index: -1; max-width: 500px; max-height: 400px; background-size: cover; transform: perspective(650px) rotateZ(-5deg) rotateX(2.5deg) rotateY(15deg) scale(0.8) translateX(-30px); box-shadow: -30px 30px 50px rgba(28, 45, 21, 0.1); margin-right: auto; border-radius: 8px; }
 @media (max-width: 1100px) { .product__image { transform: perspective(650px) scale(0.8) translateX(-30px); box-shadow: 30px 30px 50px rgba(28, 45, 21, 0.1); } }
 .product__title { margin-top: 0; }
 .product__description { font-size: 16px; line-height: 1.5; }
