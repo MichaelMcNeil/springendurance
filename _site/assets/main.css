@@ -2716,6 +2716,7 @@ i.fas, i.fab { color: #777777; font-size: 16px; padding-right: 8px; }
 
 .row.row-grid [class*="col-"] + [class*="col-"] { margin-top: 15px; }
 
+@media (max-width: 767.98px) { .navbar-toggler { font-size: 0.8rem !important; } }
 @media (min-width: 1200px) { .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] { margin-top: 0; }
   .container { width: 960px; } }
 @media (min-width: 992px) { .row.row-grid [class*="col-md-"] + [class*="col-md-"] { margin-top: 0; } }

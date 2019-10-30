@@ -75,6 +75,12 @@ thead {
   @extend .thead-light;
 }
 
+@media (max-width: 767.98px) {
+  .navbar-toggler {
+    font-size: 0.8rem !important;
+  }
+}
+
 @media (min-width: 1200px) {
   .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
     margin-top: 0;
