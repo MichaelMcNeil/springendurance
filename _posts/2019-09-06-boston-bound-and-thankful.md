@@ -12,7 +12,7 @@ image:
   width: 637
 ---
 
-<img src="/assets/posts/boston-bound-and-thankful/header.jpg">
+<img width="100%" src="/assets/posts/boston-bound-and-thankful/header.jpg">
 
 As a runner, I always wonder if I'm prepared for an upcoming race. Are these shoes the right ones? Is my nutrition good? Am I hydrated well or did I hydrate too much? Did I do well for each training session? We do our best to prepare for the race, and we give our best on race day.
 

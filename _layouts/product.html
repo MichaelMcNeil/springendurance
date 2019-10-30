@@ -1,24 +1,22 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: default
+---
 
-  {%- include head.html -%}
+<article class="page">
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title | escape }}</h1>
+  </header>
 
-  <body>
-
-    {%- include header.html -%}
-
-    <main class="main">
-      <div class="products wrapper">
-        {% include product-detail.html product=page %}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
-    
-  </body>
-  <div hidden id="snipcart" data-api-key="YTc4ODM4MWEtODUyMS00ZWQxLWIwMWUtMmNkNzc2YzBkMjRjNjM3MDc3ODUxODQxMDkxMDIw"></div>
-<script src="https://cdn.snipcart.com/themes/v3.0/default/snipcart.js" defer></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="{{'/assets/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
-</html>
+  <div class="page-content products">
+    {% include product-detail.html product=page %}
+  </div>
+</article>
+<div
+  hidden
+  id="snipcart"
+  data-api-key="YTc4ODM4MWEtODUyMS00ZWQxLWIwMWUtMmNkNzc2YzBkMjRjNjM3MDc3ODUxODQxMDkxMDIw"
+></div>
+<script
+  src="https://cdn.snipcart.com/themes/v3.0/default/snipcart.js"
+  defer
+></script>

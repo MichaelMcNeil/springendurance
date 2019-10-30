@@ -1,6 +1,6 @@
 ---
 layout: products
-title: Store
+title: Shop
 description: Take a look at our listings!
 image:
 permalink: /shop/
