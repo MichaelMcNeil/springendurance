@@ -6,49 +6,14 @@ permalink: /services/
 ---
 
 <div class="row">
-  <div class="twocol" markdown="1">
-# Perfomace Coaching
-  <div style="width: 300px; margin: auto;">
-    <img src="/assets/images/logo.png" style="display: inline; float: left; height: 100px; margin-left: 20px;" />
-    <h1 style="font-size: 60px;">$80</h1><p> / 4 weeks</p>
-  </div>
-
-**Personalized** Run Training Plans
-
-**Daily** Feedback on Workouts via TrainingPeaks
-
-**Anytime** Emails or Phone Calls
-
-**Premium** TrainingPeaks Athlete Account
-
-**Daily** Feedback on Workouts
-
-**Adjustments** to Plan as Needed
-
-**Pre-Race** Phone Calls
-
-**Included:** HR-Based Training, Video Gait Analysis, Strength Training Plans
-
-  </div>
-  <div class="twocol" markdown="1">
-# Wellness Coaching
-  <div style="width: 300px; margin: auto;">
-  <img src="/assets/images/logo.png" style="display: inline; float: left; height: 100px; margin-left: 20px;" />
-  <h1 style="font-size: 60px;">$48</h1><p> / 4 weeks</p>
-  </div>
-
-**Personalized** Run Training Plans
-
-**Monthly** Feedback on Workouts via Email
-
-**Anytime** Emails or Phone Calls
-
-**Basic** TrainingPeaks Athlete Account - (+\$10/mo for premium)
-
-  </div>
+{% for service in site.services %}
+<div class="col-md-6">
+{% include service.html %}
+</div>
+{% endfor %}
 </div>
 
-<div class="center" markdown="1">
+<div class="text-center" markdown="1">
 _For more details, read through the [new athlete welcome](/welcome)._
 
 _*pricing for the 2019 season*_

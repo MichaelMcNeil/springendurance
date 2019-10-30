@@ -65,6 +65,8 @@ collections:
   products:
     output: true
     permalink: /shop/:name
+  services:
+    output: true
 
 defaults:
   - scope:

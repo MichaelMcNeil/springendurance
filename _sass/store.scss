@@ -1,12 +1,7 @@
 @mixin fit-to-layout-and-center {
   width: 100%;
-  max-width: $layout--max-width;
   margin-left: auto;
   margin-right: auto;
-  @include sm {
-    padding-left: $size--unit * 3;
-    padding-right: $size--unit * 3;
-  }
 }
 
 @mixin xsm {
@@ -16,13 +11,13 @@
 }
 
 @mixin sm {
-  @media (max-width: #{$layout--max-width}) {
+  @media (max-width: #{$container-max-width}) {
     @content;
   }
 }
 
 @mixin ms {
-  @media (min-width: #{$layout--max-width}) {
+  @media (min-width: #{$container-max-width}) {
     @content;
   }
 }
@@ -67,7 +62,7 @@
   &:nth-of-type(odd) & {
     &__information {
       margin-left: 0;
-      margin-right: $size--unit * 4;
+      margin-right: 20px;
       @include sm {
         margin-right: 0;
       }
@@ -77,7 +72,7 @@
       transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg)
         rotateY(-15deg) scale(0.8) translateX(30px);
       box-shadow: 30px 30px 50px
-        transparentize(darken($color--primary, 50%), 0.9);
+        transparentize(darken($brand-primary, 50%), 0.9);
       @include sm {
         transform: perspective(650px) scale(0.8) translateX(-30px);
       }
@@ -85,7 +80,7 @@
   }
 
   &:not(:last-child) {
-    margin-bottom: $size--unit * 12;
+    margin-bottom: 50px;
   }
 
   @include sm {
@@ -98,7 +93,7 @@
 
   &__information {
     flex: 1;
-    margin-left: $size--unit * 4;
+    margin-left: 20px;
     @include sm {
       margin-left: 0;
     }
@@ -114,42 +109,32 @@
     background-size: cover;
     transform: perspective(650px) rotateZ(-5deg) rotateX(2.5deg) rotateY(15deg)
       scale(0.8) translateX(-30px);
-    box-shadow: -30px 30px 50px
-      transparentize(darken($color--primary, 50%), 0.9);
+    box-shadow: -30px 30px 50px transparentize(darken($brand-primary, 50%), 0.9);
     @include sm {
       transform: perspective(650px) scale(0.8) translateX(-30px);
       box-shadow: 30px 30px 50px
-        transparentize(darken($color--primary, 50%), 0.9);
+        transparentize(darken($brand-primary, 50%), 0.9);
     }
 
     margin-right: auto;
-    border-radius: $size--unit;
-  }
-
-  &__title {
-    margin-top: 0;
-  }
-
-  &__description {
-    font-size: $base-font-size;
-    line-height: $base-line-height;
+    border-radius: 5px;
   }
 }
 
 .buy-button {
   all: unset;
   color: white;
-  background-color: $color--primary;
-  border: 1px solid darken($color--primary, 3%);
-  text-shadow: 2px 2px 5px darken($color--primary, 3%);
+  background-color: $brand-primary;
+  border: 1px solid darken($brand-primary, 3%);
+  text-shadow: 2px 2px 5px darken($brand-primary, 3%);
   border-radius: 3px;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  padding: $size--unit * 2;
-  padding-left: $size--unit * 3;
-  padding-right: $size--unit * 3;
-  margin-top: $size--unit * 2;
-  @include button-hover($color--primary);
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  @include button-hover($brand-primary);
 }
