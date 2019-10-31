@@ -31,13 +31,7 @@ social:
     - https://www.facebook.com/springendurancewellness
     - https://instagram.com/springendurance
 
-# twitter_username: jekyllrb
-linkedin_username:
-github_username:
-instagram_username: improvedbyplants
-facebook_username: springendurancewellness
-
-include: ['pages']
+include: ['_pages']
 include: ['_forms']
 
 google-analytics: UA-147475824-1
@@ -49,17 +43,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
 
 collections:
   products:
@@ -67,6 +51,9 @@ collections:
     permalink: /shop/:name
   services:
     output: true
+  pages:
+    output: true
+    permalink: /:permalink/
 
 defaults:
   - scope:
