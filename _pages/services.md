@@ -24,7 +24,7 @@ _*pricing for the 2019 season*_
 
 Interested in Multi-sport? Let me know below!
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3eyuVPabr2MAjB1UgpjSnXOVQJxqNian7YsCjsaHBVhPApw/viewform?embedded=true" width="400" height="669" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+{% include contact.html %}
 
 </div>
 

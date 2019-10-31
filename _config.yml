@@ -19,7 +19,6 @@ email: hello@springendurance.com
 author: Michael Curtis
 description: Helping athletes find joy through purposeful training.
 
-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://springendurance.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assests/images/main-logo.png
@@ -31,8 +30,7 @@ social:
     - https://www.facebook.com/springendurancewellness
     - https://instagram.com/springendurance
 
-include: ['_pages']
-include: ['_forms']
+include: ["_forms"]
 
 google-analytics: UA-147475824-1
 snipcart_key: "YTc4ODM4MWEtODUyMS00ZWQxLWIwMWUtMmNkNzc2YzBkMjRjNjM3MDc3ODUxODQxMDkxMDIw"
@@ -43,7 +41,6 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
 
 collections:
   products:
