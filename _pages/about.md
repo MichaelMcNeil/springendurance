@@ -52,7 +52,7 @@ permalink: /about/
 <br>
 <br>
 <div style="text-align: center;">
-  <p> Find me on <a href="https://www.strava.com/athletes/30648228" target="_blank">Strava</a> and <a href="https://www.instagram.com/improvedbyplants/" target="_blank">Instagram</a>.</p> 
+  <p> Find me on <a href="https://www.strava.com/athletes/30648228" target="_blank">Strava</a>.</p> 
   <h1>NEXT, CHECK OUT <a href="/services">MY SERVICES</a></h1>
 </div>
 
